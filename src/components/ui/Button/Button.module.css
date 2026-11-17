@@ -1,0 +1,15 @@
+.btn {
+  border: 1px solid transparent;
+  border-radius: 999px;
+  padding: 0.5rem 0.9rem;
+  font: inherit;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.primario { background: var(--hoja); color: #fff; }
+.primario:hover { background: var(--verde); }
+.secundario { border-color: var(--verde-hondo); color: var(--verde-hondo); background: transparent; }
+.secundario:hover { background: var(--crema-2); }
+.peligro { border-color: var(--rojo); color: var(--rojo); background: transparent; }
+.peligro:hover { background: #fbeceb; }

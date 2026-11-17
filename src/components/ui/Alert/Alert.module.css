@@ -1,0 +1,9 @@
+.alerta {
+  margin: 1rem 0 0;
+  padding: 0.7rem 0.9rem;
+  border: 1px solid #cfe3b8;
+  border-radius: 10px;
+  background: #edf4e1;
+  color: var(--verde-hondo);
+}
+.error { border-color: var(--rojo); background: #fbeceb; color: var(--rojo); }

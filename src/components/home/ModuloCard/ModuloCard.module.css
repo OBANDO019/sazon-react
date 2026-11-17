@@ -1,0 +1,4 @@
+.tarjeta { display: block; background: var(--card); border: 1px solid var(--linea); border-left: 5px solid var(--verde); border-radius: 14px; padding: 1rem; text-decoration: none; transition: transform 0.15s ease, box-shadow 0.15s ease; }
+.tarjeta:hover { transform: translateY(-3px); box-shadow: 0 12px 24px rgba(17, 70, 34, 0.12); }
+.tarjeta h2 { margin: 0 0 0.35rem; font-family: var(--fuente-titulo); font-size: 1.2rem; }
+.tarjeta p { margin: 0; color: #5b5e60; }
