@@ -1,0 +1,7 @@
+.contenedor { overflow-x: auto; }
+.tabla { width: 100%; border-collapse: collapse; background: #fff; }
+.tabla caption { text-align: left; margin-bottom: 0.5rem; font-weight: 600; }
+.tabla th, .tabla td { padding: 0.7rem 0.6rem; text-align: left; border-bottom: 1px solid var(--linea); font-size: 0.92rem; }
+.tabla th { background: var(--crema-2); color: var(--verde-hondo); }
+.acciones { display: flex; gap: 0.5rem; }
+.vacio { margin-top: 1rem; color: #5b5e60; }

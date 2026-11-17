@@ -1,0 +1,4 @@
+.hero { margin: 2rem 0 1.5rem; padding: 2rem; border-radius: 18px; color: #fff; background: linear-gradient(135deg, var(--verde-noche), var(--verde)); }
+.etiqueta { margin: 0 0 0.5rem; font-weight: 600; font-size: 0.85rem; color: #d8ecba; text-transform: uppercase; letter-spacing: 0.08em; }
+.hero h1 { margin: 0; font-family: var(--fuente-titulo); font-size: clamp(2rem, 4vw, 3rem); }
+.texto { margin: 0.8rem 0 0; max-width: 55ch; }

@@ -1,0 +1,9 @@
+.pagina { padding: 2rem 0; }
+.bloque { background: #fff; border: 1px solid var(--linea); border-radius: 14px; padding: 1.25rem; margin-bottom: 1rem; }
+.bloque h1, .bloque h2 { margin-top: 0; font-family: var(--fuente-titulo); }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; }
+.gridHome { composes: grid; margin-bottom: 2.2rem; }
+.bloque label { display: block; margin: 0.6rem 0 0.25rem; font-weight: 600; }
+.bloque input, .bloque select { width: 100%; border: 1px solid var(--linea); border-radius: 8px; padding: 0.55rem; font: inherit; }
+.bloque fieldset { border: 1px solid var(--linea); border-radius: 10px; padding: 1rem; margin: 0; }
+.bloque button[type="submit"] { margin-top: 0.8rem; }
