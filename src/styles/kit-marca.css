@@ -1,0 +1,21 @@
+/* Kit de marca Sazón: variables y tipografías (tomadas de sazon.css) */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap");
+
+:root {
+  --verde-noche: #114622;
+  --verde-hondo: #215b33;
+  --verde: #3d8e33;
+  --hoja: #7fba00;
+  --teal: #569e8f;
+  --rojo: #d6121a;
+  --tinta: #2a1605;
+  --texto: #3f4040;
+  --gris: #989898;
+  --crema: #f4f4e8;
+  --crema-2: #e9e8d7;
+  --card: #ffffff;
+  --linea: #dad9c4;
+
+  --fuente-titulo: "Poppins", sans-serif;
+  --fuente-texto: "Inter", sans-serif;
+}

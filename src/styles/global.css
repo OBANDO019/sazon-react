@@ -1,0 +1,14 @@
+@import "./kit-marca.css";
+
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: var(--fuente-texto);
+  color: var(--texto);
+  background: var(--crema);
+}
+
+a { color: inherit; }
+
+.contenedor { width: min(1100px, 92%); margin: 0 auto; }
