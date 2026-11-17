@@ -1,0 +1,14 @@
+.topbar { border-bottom: 1px solid var(--linea); background: var(--crema); }
+.interno { min-height: 72px; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+.marca { font-family: var(--fuente-titulo); font-size: 1.5rem; font-weight: 700; color: var(--verde-hondo); text-decoration: none; }
+.navegacion { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+.navegacion a { text-decoration: none; font-weight: 600; font-size: 0.95rem; padding: 0.35rem 0.6rem; border-radius: 999px; }
+.navegacion a:hover, .activo { background: var(--crema-2); color: var(--verde-hondo); }
+.acciones { display: flex; gap: 0.5rem; }
+.btn { border: 1px solid transparent; border-radius: 999px; padding: 0.5rem 0.9rem; font-size: 0.9rem; font-weight: 600; text-decoration: none; }
+.primario { background: var(--hoja); color: #fff; }
+.secundario { border-color: var(--verde-hondo); color: var(--verde-hondo); }
+
+@media (max-width: 900px) {
+  .interno { align-items: flex-start; flex-direction: column; padding: 0.8rem 0; }
+}

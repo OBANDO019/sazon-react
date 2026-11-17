@@ -1,0 +1,5 @@
+.tarjeta { background: var(--card); border: 1px solid var(--linea); border-top: 4px solid var(--verde); border-radius: 14px; padding: 1rem; }
+.marca { display: inline-block; padding: 0.15rem 0.6rem; border-radius: 999px; background: var(--crema-2); color: var(--verde-hondo); font-size: 0.8rem; font-weight: 600; }
+.tarjeta h3 { margin: 0.6rem 0 0.2rem; font-family: var(--fuente-titulo); font-size: 1.05rem; color: var(--tinta); }
+.categoria { margin: 0; color: #5b5e60; font-size: 0.9rem; }
+.precio { margin: 0.6rem 0 0; font-weight: 700; color: var(--verde-hondo); }
